@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Ranganath | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans leading-normal tracking-normal">
+
+    <!-- Header / Hero Section -->
+    <header class="bg-white shadow-md py-12">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl font-bold text-gray-900 mb-2">Rahul Ranganath</h1>
+            <p class="text-xl text-blue-600 mb-6">Software Developer</p>
+            <div class="flex justify-center space-x-4 text-gray-600">
+                <span><i class="fas fa-map-marker-alt"></i> San Jose, CA</span>
+                <span><i class="fas fa-envelope"></i> srahulrm96@gmail.com</span>
+                <span><i class="fas fa-phone"></i> (669) 292-7919</span>
+            </div>
+            <div class="mt-6 flex justify-center space-x-4 mt-4">
+                <a href="#" class="text-gray-500 hover:text-blue-600 transition"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="#" class="text-gray-500 hover:text-gray-900 transition"><i class="fab fa-github fa-2x"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-10 max-w-5xl">
+        
+        <!-- Technical Skills -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 border-b-2 border-blue-500 pb-2 mb-6">Technical Skills</h2>
+            <div class="bg-white shadow rounded-lg p-6 flex flex-col gap-4">
+                <div><strong>Core Tech:</strong> Python, JavaScript, AI/ML, React/Redux, Java, Spring Boot, Kafka, HTML/CSS, REST, Node.js</div>
+                <div><strong>Cloud/PaaS:</strong> Docker, Kubernetes, AWS</div>
+                <div><strong>Database (SQL/NoSQL):</strong> MySQL, PostgreSQL, MongoDB, DynamoDB</div>
+                <div><strong>Testing & CI/CD:</strong> Pytest, Selenium, Junit, Mockito, TestNG, Git, Jenkins, GitHub Actions, Jira</div>
+            </div>
+        </section>
+
+        <!-- Work Experience -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 border-b-2 border-blue-500 pb-2 mb-6">Work Experience</h2>
+            
+            <div class="space-y-6">
+                <!-- Job 1 -->
+                <div class="bg-white shadow rounded-lg p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">Software Developer</h3>
+                            <p class="text-blue-600">Voter.Vote (Remote)</p>
+                        </div>
+                        <span class="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full">Feb 2025 – Present</span>
+                    </div>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Architected a full-stack campaign intelligence platform using Python/React with Codex/Copilot, scaling to 2M+ records.</li>
+                        <li>Designed LLM-driven data ingestion pipelines (OpenAI/Perplexity APIs), improving throughput by 4x.</li>
+                        <li>Built serverless workflows using AWS Lambda/Fargate to process 100K+ records with sub-minute latency.</li>
+                    </ul>
+                </div>
+
+                <!-- Job 2 -->
+                <div class="bg-white shadow rounded-lg p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">Software Developer</h3>
+                            <p class="text-blue-600">Intuit | Mountain View, CA</p>
+                        </div>
+                        <span class="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full">Aug 2024 – Feb 2025</span>
+                    </div>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Designed event-driven backend using AWS Lambda/EventBridge, processing 80K+ events/min.</li>
+                        <li>Built Kafka/Apache Flink streaming pipeline to ensure deterministic event sequencing.</li>
+                        <li>Developed Node.js microservices handling thousands of concurrent TurboTax user sessions.</li>
+                    </ul>
+                </div>
+
+                <!-- Job 3 -->
+                <div class="bg-white shadow rounded-lg p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">Software Developer</h3>
+                            <p class="text-blue-600">NVision IT (Remote)</p>
+                        </div>
+                        <span class="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full">Feb 2024 – July 2024</span>
+                    </div>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Delivered cross-platform Python/React app supporting healthcare campaigns for 1M+ rural users.</li>
+                        <li>Optimized API latency by 35% under variable network conditions through database restructuring.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-900 border-b-2 border-blue-500 pb-2 mb-6">Technical Projects</h2>
+            <div class="bg-white shadow rounded-lg p-6">
+                <div class="flex justify-between items-center mb-2">
+                    <h3 class="text-xl font-bold text-gray-800">AI Enhanced Shopping Experience</h3>
+                    <span class="text-sm text-gray-500">Aug - Nov 2023</span>
+                </div>
+                <p class="text-gray-700 mb-2"><em>San Jose State University</em></p>
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                    <li>Built a conversational AI system using Dialogflow and OpenAI APIs for real-time grocery recommendations.</li>
+                    <li>Designed intent classification workflows to improve relevance and personalization.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2 class="text-2xl font-bold text-gray-900 border-b-2 border-blue-500 pb-2 mb-6">Education</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white shadow rounded-lg p-6 border-l-4 border-blue-500">
+                    <h3 class="text-lg font-bold text-gray-800">Master of Science, Computer Science</h3>
+                    <p class="text-gray-600">San Jose State University</p>
+                    <p class="text-sm text-gray-500 mt-2">Dec 2023</p>
+                </div>
+                <div class="bg-white shadow rounded-lg p-6 border-l-4 border-gray-500">
+                    <h3 class="text-lg font-bold text-gray-800">Bachelor of Technology, Computer Science</h3>
+                    <p class="text-gray-600">PES University, India</p>
+                    <p class="text-sm text-gray-500 mt-2">May 2018</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-6 mt-12">
+        <p>&copy; 2026 Rahul Ranganath. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
